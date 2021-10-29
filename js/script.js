@@ -138,7 +138,7 @@ genrateExamPage = () => {
   container.innerHTML = "";
   container.style.minHeight="100vh"
   const markup = `<section class="questions-section">
-  <a href="../html/indexHomePage.html" class=" d-block h6 ms-auto home-btn"><i class="fas fa-home"></i></a>
+  <a href="../index.html" class=" d-block h6 ms-auto home-btn"><i class="fas fa-home"></i></a>
     <div class="container">
       <h2 class="section-title">Questions</h2>
       <div class="row">
@@ -265,7 +265,7 @@ const generateQuestionResults = () => {
   const questionContainer = document.querySelector(".container div");
   for (let i = 1; i < 11; i++) {
     const markup = `
-    <a href="../html/indexHomePage.html" class="btn-logout">LOG OUT</a>
+    <a href="../index.html" class="btn-logout">LOG OUT</a>
     <div class=" card card-result mx-3  p-5 my-3 shadow min-height-50 mt-5">
     <h2 class="mb-5 font-small-sm h2--${i}">Q${i} ${
       questionsObject[`question${i}`].question
